@@ -48,3 +48,7 @@
 | [Terry Mazzoni](https://github.com/TerryMazzoni) | Backend Developer |
 | [Christopher Artigas](https://github.com/ArtigasChristopher) | AI Developer |
 | [Antonin Laudon](https://github.com/AntoninLaudon) | AI Developer |
+
+## EIP
+
+The project is part of the EIP (Epitech Innovative Project) from Epitech Toulouse.
