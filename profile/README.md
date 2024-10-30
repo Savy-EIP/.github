@@ -46,7 +46,7 @@
 | [Tom Laiolo](https://github.com/yomlaiolo) | Android Developer |
 | [Quention Challon](https://github.com/chaquentin) | Scrum Master & 3D Artist |
 | [Terry Mazzoni](https://github.com/TerryMazzoni) | Backend Developer |
-| [Christopher Artigas](https://github.com/ArtigasChristopher) | AI Developer |
+| [Christopher Artigas](https://github.com/ArtigasChristopher) | Product Owner & AI Developer |
 | [Antonin Laudon](https://github.com/AntoninLaudon) | AI Developer |
 
 ## EIP
