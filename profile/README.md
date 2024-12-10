@@ -18,7 +18,7 @@
 - ### Discussions
     You can discuss with the Echos on different topics or situations in oral or written form.
 - ### Savy AI
-    Sayv will correct, suggest and help you to improve your language skills when you speak or write with the Echos.
+    Savy will correct, suggest and help you to improve your language skills when you speak or write with the Echos.
     He gives you feedback on your pronunciation, grammar, vocabulary, and more.
 - ### Lessons
     You can take lessons based on your level and your needs. The lessons are personalized and adapted to your progress.
