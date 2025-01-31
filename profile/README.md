@@ -52,3 +52,5 @@
 ## EIP
 
 The project is part of the EIP (Epitech Innovative Project) from Epitech Toulouse.
+
+[Voir le Beta Test Plan](beta_test_plan.md)
