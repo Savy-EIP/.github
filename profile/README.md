@@ -44,7 +44,7 @@
 |:---:|:---:|
 | [Luca Deltort](https://github.com/StEgo2103) | iOS Developer & Designer |
 | [Tom Laiolo](https://github.com/yomlaiolo) | Android Developer |
-| [Quentin Challon](https://github.com/chaquentin) | Scrum Master & 3D Artist |
+| [Quentin Challon](https://github.com/chaquentin) | Full-stack Developer & 3D Artist |
 | [Terry Mazzoni](https://github.com/TerryMazzoni) | Backend Developer |
 | [Christopher Artigas](https://github.com/ArtigasChristopher) | Product Owner & AI Developer |
 | [Antonin Laudon](https://github.com/AntoninLaudon) | AI Developer |
