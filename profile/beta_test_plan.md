@@ -2,8 +2,6 @@
 
 ## **1. Core Functionalities for Beta Version**
 
-[List and describe the core functionalities that must be available for beta testing. Explain any changes made since the original Tech3 Action Plan.]
-
 | **Feature Name**               | **Description**                                                                                                 | **Priority (High/Medium/Low)** | **Changes Since Tech3**      |
 | ------------------------------ | --------------------------------------------------------------------------------------------------------------- | ------------------------------ | ---------------------------- |
 | Send messages                  | User sends a message to an Echo with a dedicated interface                                                      | High                           |                              |
@@ -135,20 +133,25 @@ For each core functionality, provide detailed test scenarios.
 
 ## **3. Success Criteria**
 
-[Define the metrics and conditions that determine if the beta version is successful.]
+| **Criterion** | **Description**                                                  | **Threshold for Success**          |
+| ------------- | ---------------------------------------------------------------- | ---------------------------------- |
+| Stability     | No major crashes or critical bugs                                | No crash reported                  |
+| Usability     | Users can navigate and understand features with minimal guidance | 80% positive feedback from testers |
+| Performance   | Echo answer quickly                                              | Response within 5 seconds          |
+| Relevance     | Echo talk about his topic                                        | Coherent conversation              |
+| Language      | Application is translate in multiples languages                  | At least 2 languages               |
 
 ---
 
 ## **4. Known Issues & Limitations**
 
-[List any known bugs, incomplete features, or limitations that testers should be aware of.]
-
-| **Issue** | **Description** | **Impact** | **Planned Fix? (Yes/No)** |
-| --------- | --------------- | ---------- | ------------------------- |
-|           |                 |            |                           |
+| **Issue**         | **Description**                                                    | **Impact** | **Planned Fix? (Yes/No)** |
+| ----------------- | ------------------------------------------------------------------ | ---------- | ------------------------- |
+| Search Echo       | The search bar does not search for Echoes but only for discussions | Medium     | Yes                       |
+| Meesages too long | The messages of the Echoes are too long                            | Medium     | Yes                       |
 
 ---
 
 ## **5. Conclusion**
 
-[Summarize the importance of this Beta Test Plan and what the team expects to achieve with it.]
+This Beta Test Plan ensures that **Savy** is tested in a structured and efficient manner. By validating the core functionalities, refining the user experience, and ensuring feature stability, we aim to optimize Echoes for more relevant messages. The insights from this beta phase will help us address key issues and prepare for the final version of the project.
