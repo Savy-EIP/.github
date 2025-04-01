@@ -7,25 +7,18 @@
 | Send messages                  | User sends a message to an Echo with a dedicated interface                                                      | High                           |                              |
 | Receive messages               | User receives a response to the message they sent                                                               | High                           |                              |
 | Messages history               | User can see the message history in a conversation                                                              | High                           |                              |
-| Create Echoes                  | User has access to a large panel of Echoes                                                                      | High                           |                              |
+| Diversity of Echoes            | User has access to many differents Echoes                                                                       | High                           | Feature's name change        |
 | Chat Page                      | User uses this page to chat with an Echo                                                                        | High                           |                              |
 | Discussion List Page           | The list of all available discussions where the user can choose                                                 | High                           |                              |
 | Discussion Page                | The main page of the discussion where the user can see their recent chats, 3 random topics, and 3 random places | High                           |                              |
 | Sign In / Sign Up Page w/o SSO | User can sign in or create an account with their email and password                                             | High                           | Split the w/ SSO and w/o SSO |
-| Implement Text To Speech       | User can listen to the Echo speaking to them                                                                    | Medium                         |                              |
-| Send voice messages            | User sends a voice message to an Echo                                                                           | Medium                         |                              |
-| Navigation Bar                 | User can navigate through Home/Discussion/Stats/Lessons                                                         | Medium                         |                              |
-| Top Bar                        | User can switch languages and view their profile                                                                | Medium                         |                              |
-| See Errors on Messages         | User can see errors on messages when they send one                                                              | Medium                         | Added more precisions        |
-| Profile Page                   | User can view and edit their profile information                                                                | Medium                         |                              |
-| Implement Mouth Movement       | The mouth of the Echo moves when it speaks                                                                      | Low                            |                              |
-| Sign In / Sign Up Page w/ SSO  | User can sign in or create an account with Google/Apple SSO                                                     | Low                            | Split the w/ SSO and w/o SSO |
-| Home Page                      | The page regroups a summary of Discussion/Stats/Lessons                                                         | Low                            |                              |
-| Lessons Page                   | User can access and view lessons on the language they are learning                                              | Low                            |                              |
-| Stats Page                     | User can view their statistics and progress                                                                     | Low                            | Added in dedicated Page      |
+| Navigation Bar                 | User can navigate through Home/Discussion/Stats/Lessons page                                                    | Medium                         |                              |
+| Top Bar                        | User can switch languages to learn and view their profile                                                       | Medium                         |                              |
+| See Errors on Messages         | User can see errors on messages when sending one                                                                | Medium                         | Added more precisions        |
+| Discuss w/ Savy on an error    | User can start a discussion with Savy to speak about an error to understand it                                  | Medium                         | Added for better UX          |
+| Profile Page                   | User can view and edit their profile information, change the language of the app and access some settings       | Medium                         |                              |
+| Lessons Page                   | User can access and view basics lessons on the language they are learning                                       | Low                            |                              |
 | Moderation Savy                | The AI Savy moderates the messages between the user and the Echo to prevent dependency on Echoes                | Low                            |                              |
-| Alphabet Learning              | User can learn the alphabet                                                                                     | Low                            |                              |
-| Link courses with Echoes       | The courses can redirect to chat with an Echo to discuss what they have learned                                 | Low                            |                              |
 | Multiple Language handling     | User can learn multiple languages and switch between them                                                       | Low                            |                              |
 
 ---
@@ -147,8 +140,8 @@ For each core functionality, provide detailed test scenarios.
 
 | **Issue**         | **Description**                                                    | **Impact** | **Planned Fix? (Yes/No)** |
 | ----------------- | ------------------------------------------------------------------ | ---------- | ------------------------- |
-| Search Echo       | The search bar does not search for Echoes but only for discussions | Medium     | Yes                       |
 | Meesages too long | The messages of the Echoes are too long                            | Medium     | Yes                       |
+| Search Echo       | The search bar does not search for Echoes but only for discussions | Low        | No                        |
 
 ---
 
