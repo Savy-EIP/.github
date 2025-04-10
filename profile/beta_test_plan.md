@@ -122,17 +122,116 @@ For each core functionality, provide detailed test scenarios.
 
 - **Expected Outcome:** The user sees the previous messages and can continue the conversation.
 
+#### **Scenario 7: See the errors on a message**
+
+- **Role Involved:** User
+- **Objective:** Ensure the user can see his errors on the chat page.
+- **Preconditions:** User is logged in, on the Chat Page and has already send some messages.
+- **Test Steps:**
+
+  1. User sees the type of errors above the messages.
+  2. User clicks on the message to see the errors.
+
+- **Expected Outcome:** A modal opens with the details of the errors and an explanation of the error.
+
+#### **Scenario 8: Discuss with the coach on an error**
+
+- **Role Involved:** User
+- **Objective:** Ensure the user can discuss about his errors on the modal page.
+- **Preconditions:** User is logged in, on the Chat Page and has already send some messages.
+- **Test Steps:**
+
+  1. User clicks on the message to see the errors.
+  2. User writes a message to the coach in the modal.
+  3. User clicks on the “Send” button.
+
+- **Expected Outcome:** The coach responds to the user's message in the modal.
+
+#### **Scenario 9: Change their name and email**
+
+- **Role Involved:** User
+- **Objective:** Ensure the user can change their name and email.
+- **Preconditions:** User is logged in, on the Profile Page.
+- **Test Steps:**
+
+  1. User clicks on the “Edit” button.
+  2. User changes their name and email in the dedicated fields.
+  3. User clicks on the “Save” button.
+
+- **Expected Outcome:** The user has successfully changed their name and email.
+
+#### **Scenario 10: Change the application language**
+
+- **Role Involved:** User
+- **Objective:** Ensure the user can change the application language.
+- **Preconditions:** User is logged in, on the Profile Page.
+- **Test Steps:**
+
+  1. User clicks on the dropdown menu to choose the language.
+  2. User selects the language they want to change.
+
+- **Expected Outcome:** The application language is changed.
+
+#### **Scenario 11: Disconnect**
+
+- **Role Involved:** User
+- **Objective:** Ensure the user can disconnect from the application.
+- **Preconditions:** User is logged in, on the Home Page.
+- **Test Steps:**
+
+  1. User clicks on the “Disconnect” button in the Top Bar.
+
+- **Expected Outcome:** The user is disconnected and redirected to the Sign In Page.
+
+#### **Scenario 12: Delete his account**
+
+- **Role Involved:** User
+- **Objective:** Ensure the user can delete their account.
+- **Preconditions:** User is logged in, on the Profile Page.
+- **Test Steps:**
+
+  1. User clicks on the “Delete my account” button.
+  2. User confirms the deletion of their account.
+
+- **Expected Outcome:** The user is disconnected and redirected to the Sign In Page and can't connect with this account anymore.
+
+#### **Scenario 13: See the lessons**
+
+- **Role Involved:** User
+- **Objective:** Ensure the user can see the lessons.
+- **Preconditions:** User is logged in, on the Lessons Page.
+- **Test Steps:**
+
+  1. User clicks on the “Lessons” button in the Navigation Bar.
+  2. User selects a lesson to view.
+
+- **Expected Outcome:** The user can see the lesson and its content.
+
+#### **Scenario 14: Change the language to learn**
+
+- **Role Involved:** User
+- **Objective:** Ensure the user can change the language to learn.
+- **Preconditions:** User is logged in.
+
+- **Test Steps:**
+
+  1. User clicks on the flag button in the Top Bar.
+  2. User selects the language they want to learn.
+
+- **Expected Outcome:** The user can see the lessons in the new language and the Echoes speak in this language.
+
 ---
 
 ## **3. Success Criteria**
 
-| **Criterion** | **Description**                                                  | **Threshold for Success**          |
-| ------------- | ---------------------------------------------------------------- | ---------------------------------- |
-| Stability     | No major crashes or critical bugs                                | No crash reported                  |
-| Usability     | Users can navigate and understand features with minimal guidance | 80% positive feedback from testers |
-| Performance   | Echo answer quickly                                              | Response within 5 seconds          |
-| Relevance     | Echo talk about his topic                                        | Coherent conversation              |
-| Language      | Application is translate in multiples languages                  | At least 2 languages               |
+| **Criterion** | **Description**                                                  | **Threshold for Success**                         |
+| ------------- | ---------------------------------------------------------------- | ------------------------------------------------- |
+| Stability     | No major crashes or critical bugs                                | No crash reported                                 |
+| Usability     | Users can navigate and understand features with minimal guidance | 80% positive feedback from testers                |
+| Performance   | Echo answer quickly                                              | Response within 5 seconds wiht 20 users connected |
+| Relevance     | Echo talk about his topic                                        | Coherent conversation                             |
+| Relevance     | The errors on the message                                        | See, report and explain correctly the errors      |
+| Language      | Application is translate in multiples languages                  | At least 2 languages                              |
 
 ---
 
